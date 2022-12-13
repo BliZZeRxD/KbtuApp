@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Научно_образовательный_центр_материаловедения_и_проблем_коррозии.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
