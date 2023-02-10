@@ -8,7 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		8503E8AF29462880007B67C9 /* price_kbtu_2022_2023.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8503E8AE29462880007B67C9 /* price_kbtu_2022_2023.pdf */; };
-		8547209A293A25C700616DA2 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85472099293A25C700616DA2 /* News.swift */; };
+		851D59D0294F304100E1CD74 /* SecondFloorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851D59CF294F304100E1CD74 /* SecondFloorVC.swift */; };
+		851D59D2294F304A00E1CD74 /* ThirdFloorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851D59D1294F304A00E1CD74 /* ThirdFloorVC.swift */; };
+		851D59D4294F305400E1CD74 /* FourthFloorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851D59D3294F305400E1CD74 /* FourthFloorVC.swift */; };
+		851D59D6294F305D00E1CD74 /* FifthFloorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851D59D5294F305D00E1CD74 /* FifthFloorVC.swift */; };
+		85392F77294A010F0084156E /* GetGrantVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85392F76294A010F0084156E /* GetGrantVC.swift */; };
+		85392F79294A018E0084156E /* GetGrantInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85392F78294A018E0084156E /* GetGrantInfo.swift */; };
+		85392F7B294A06B20084156E /* GetPaymentInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85392F7A294A06B20084156E /* GetPaymentInfo.swift */; };
+		85392F7D294A07E90084156E /* GetPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85392F7C294A07E80084156E /* GetPayment.swift */; };
 		854720A5293A2CC100616DA2 /* RawNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854720A4293A2CC100616DA2 /* RawNews.swift */; };
 		854720A7293A312D00616DA2 /* Teachers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854720A6293A312D00616DA2 /* Teachers.swift */; };
 		854720A9293A315E00616DA2 /* Faculties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854720A8293A315E00616DA2 /* Faculties.swift */; };
@@ -16,6 +23,22 @@
 		854720AD293E280800616DA2 /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 854720AB293E280800616DA2 /* NewsCell.xib */; };
 		854720B5293E3C6A00616DA2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854720B4293E3C6A00616DA2 /* HomeViewController.swift */; };
 		854720B82941469D00616DA2 /* FacultiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854720B72941469D00616DA2 /* FacultiesViewController.swift */; };
+		854AE698294A0EDC00C7A3C0 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854AE697294A0EDC00C7A3C0 /* Info.swift */; };
+		854AE69A294A0FB500C7A3C0 /* InfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854AE699294A0FB500C7A3C0 /* InfoVC.swift */; };
+		854AE69C294A128400C7A3C0 /* DMISVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854AE69B294A128400C7A3C0 /* DMISVC.swift */; };
+		854AE69E294A14FA00C7A3C0 /* BachelourPrograms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854AE69D294A14FA00C7A3C0 /* BachelourPrograms.swift */; };
+		854AE6A0294A175500C7A3C0 /* DocumentsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854AE69F294A175500C7A3C0 /* DocumentsListVC.swift */; };
+		854AE6A2294A17C900C7A3C0 /* DocumentsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854AE6A1294A17C900C7A3C0 /* DocumentsList.swift */; };
+		854AE6A4294A1B4200C7A3C0 /* OplataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854AE6A3294A1B4200C7A3C0 /* OplataVC.swift */; };
+		854AE6A6294A1D9B00C7A3C0 /* HomeBankVideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854AE6A5294A1D9B00C7A3C0 /* HomeBankVideoVC.swift */; };
+		854AE6AA294F03F300C7A3C0 /* PerezachetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854AE6A9294F03F300C7A3C0 /* PerezachetVC.swift */; };
+		854AE6AC294F052B00C7A3C0 /* pam_per_kbtu_5.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 854AE6AB294F052B00C7A3C0 /* pam_per_kbtu_5.pdf */; };
+		854AE6AE294F069A00C7A3C0 /* PerezachetInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854AE6AD294F069A00C7A3C0 /* PerezachetInfoVC.swift */; };
+		854AE6B0294F07A000C7A3C0 /* KeletInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854AE6AF294F07A000C7A3C0 /* KeletInfoVC.swift */; };
+		854AE6B2294F090600C7A3C0 /* KeletVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854AE6B1294F090600C7A3C0 /* KeletVC.swift */; };
+		854AE6B4294F187500C7A3C0 /* MapsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854AE6B3294F187500C7A3C0 /* MapsList.swift */; };
+		854AE6B6294F1A2B00C7A3C0 /* Maps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854AE6B5294F1A2B00C7A3C0 /* Maps.swift */; };
+		854AE6B8294F1CB500C7A3C0 /* FirstFloorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854AE6B7294F1CB500C7A3C0 /* FirstFloorVC.swift */; };
 		856F1C882936440F00082F73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856F1C872936440F00082F73 /* AppDelegate.swift */; };
 		856F1C8A2936440F00082F73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856F1C892936440F00082F73 /* SceneDelegate.swift */; };
 		856F1C8F2936440F00082F73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 856F1C8D2936440F00082F73 /* Main.storyboard */; };
@@ -31,14 +54,24 @@
 		85DCDAC929466DA000945E71 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85DCDAC729466DA000945E71 /* MyCollectionViewCell.xib */; };
 		85DCDACB29470C4800945E71 /* TeachersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DCDACA29470C4800945E71 /* TeachersVC.swift */; };
 		85DCDACD29475EA300945E71 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DCDACC29475EA300945E71 /* MainVC.swift */; };
-		B5B82E62DB25301795F988A5 /* Pods_KBTUDiplomaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A2FBA67A3076CE889B7E122 /* Pods_KBTUDiplomaApp.framework */; };
+		85F4CD13296AF52D00A2D7EF /* HomeBankScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 85F4CD12296AF52D00A2D7EF /* HomeBankScreen.png */; };
+		85F4CD15296B006B00A2D7EF /* KaspiVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F4CD14296B006B00A2D7EF /* KaspiVideo.swift */; };
+		85F4CD18296C370D00A2D7EF /* Homebank.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 85F4CD16296C370C00A2D7EF /* Homebank.mp4 */; };
+		85F4CD19296C370D00A2D7EF /* Kaspi.kz.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 85F4CD17296C370D00A2D7EF /* Kaspi.kz.MP4 */; };
+		85F4CD1B296C3AC000A2D7EF /* HomeBankVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F4CD1A296C3AC000A2D7EF /* HomeBankVideo.swift */; };
+		85F4CD1D296C3C0F00A2D7EF /* KaspiScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 85F4CD1C296C3C0F00A2D7EF /* KaspiScreen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		362609EE588C58BD8A6124E5 /* Pods-KBTUDiplomaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBTUDiplomaApp.release.xcconfig"; path = "Target Support Files/Pods-KBTUDiplomaApp/Pods-KBTUDiplomaApp.release.xcconfig"; sourceTree = "<group>"; };
-		6A2FBA67A3076CE889B7E122 /* Pods_KBTUDiplomaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KBTUDiplomaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8503E8AE29462880007B67C9 /* price_kbtu_2022_2023.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = price_kbtu_2022_2023.pdf; sourceTree = "<group>"; };
-		85472099293A25C700616DA2 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		851D59CF294F304100E1CD74 /* SecondFloorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondFloorVC.swift; sourceTree = "<group>"; };
+		851D59D1294F304A00E1CD74 /* ThirdFloorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdFloorVC.swift; sourceTree = "<group>"; };
+		851D59D3294F305400E1CD74 /* FourthFloorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthFloorVC.swift; sourceTree = "<group>"; };
+		851D59D5294F305D00E1CD74 /* FifthFloorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthFloorVC.swift; sourceTree = "<group>"; };
+		85392F76294A010F0084156E /* GetGrantVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetGrantVC.swift; sourceTree = "<group>"; };
+		85392F78294A018E0084156E /* GetGrantInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetGrantInfo.swift; sourceTree = "<group>"; };
+		85392F7A294A06B20084156E /* GetPaymentInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPaymentInfo.swift; sourceTree = "<group>"; };
+		85392F7C294A07E80084156E /* GetPayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPayment.swift; sourceTree = "<group>"; };
 		854720A4293A2CC100616DA2 /* RawNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawNews.swift; sourceTree = "<group>"; };
 		854720A6293A312D00616DA2 /* Teachers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teachers.swift; sourceTree = "<group>"; };
 		854720A8293A315E00616DA2 /* Faculties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faculties.swift; sourceTree = "<group>"; };
@@ -46,6 +79,22 @@
 		854720AB293E280800616DA2 /* NewsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
 		854720B4293E3C6A00616DA2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		854720B72941469D00616DA2 /* FacultiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacultiesViewController.swift; sourceTree = "<group>"; };
+		854AE697294A0EDC00C7A3C0 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		854AE699294A0FB500C7A3C0 /* InfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoVC.swift; sourceTree = "<group>"; };
+		854AE69B294A128400C7A3C0 /* DMISVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMISVC.swift; sourceTree = "<group>"; };
+		854AE69D294A14FA00C7A3C0 /* BachelourPrograms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BachelourPrograms.swift; sourceTree = "<group>"; };
+		854AE69F294A175500C7A3C0 /* DocumentsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsListVC.swift; sourceTree = "<group>"; };
+		854AE6A1294A17C900C7A3C0 /* DocumentsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsList.swift; sourceTree = "<group>"; };
+		854AE6A3294A1B4200C7A3C0 /* OplataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OplataVC.swift; sourceTree = "<group>"; };
+		854AE6A5294A1D9B00C7A3C0 /* HomeBankVideoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBankVideoVC.swift; sourceTree = "<group>"; };
+		854AE6A9294F03F300C7A3C0 /* PerezachetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerezachetVC.swift; sourceTree = "<group>"; };
+		854AE6AB294F052B00C7A3C0 /* pam_per_kbtu_5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = pam_per_kbtu_5.pdf; sourceTree = "<group>"; };
+		854AE6AD294F069A00C7A3C0 /* PerezachetInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerezachetInfoVC.swift; sourceTree = "<group>"; };
+		854AE6AF294F07A000C7A3C0 /* KeletInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeletInfoVC.swift; sourceTree = "<group>"; };
+		854AE6B1294F090600C7A3C0 /* KeletVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeletVC.swift; sourceTree = "<group>"; };
+		854AE6B3294F187500C7A3C0 /* MapsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsList.swift; sourceTree = "<group>"; };
+		854AE6B5294F1A2B00C7A3C0 /* Maps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maps.swift; sourceTree = "<group>"; };
+		854AE6B7294F1CB500C7A3C0 /* FirstFloorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstFloorVC.swift; sourceTree = "<group>"; };
 		856F1C842936440F00082F73 /* KBTUDiplomaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KBTUDiplomaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		856F1C872936440F00082F73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		856F1C892936440F00082F73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,7 +112,12 @@
 		85DCDAC729466DA000945E71 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
 		85DCDACA29470C4800945E71 /* TeachersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeachersVC.swift; sourceTree = "<group>"; };
 		85DCDACC29475EA300945E71 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
-		A6C3C588A4DC63D3FA675AEC /* Pods-KBTUDiplomaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBTUDiplomaApp.debug.xcconfig"; path = "Target Support Files/Pods-KBTUDiplomaApp/Pods-KBTUDiplomaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		85F4CD12296AF52D00A2D7EF /* HomeBankScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeBankScreen.png; sourceTree = "<group>"; };
+		85F4CD14296B006B00A2D7EF /* KaspiVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaspiVideo.swift; sourceTree = "<group>"; };
+		85F4CD16296C370C00A2D7EF /* Homebank.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Homebank.mp4; sourceTree = "<group>"; };
+		85F4CD17296C370D00A2D7EF /* Kaspi.kz.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kaspi.kz.MP4; sourceTree = "<group>"; };
+		85F4CD1A296C3AC000A2D7EF /* HomeBankVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBankVideo.swift; sourceTree = "<group>"; };
+		85F4CD1C296C3C0F00A2D7EF /* KaspiScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KaspiScreen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,37 +125,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5B82E62DB25301795F988A5 /* Pods_KBTUDiplomaApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3314205E1A78473E26E5E332 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A6C3C588A4DC63D3FA675AEC /* Pods-KBTUDiplomaApp.debug.xcconfig */,
-				362609EE588C58BD8A6124E5 /* Pods-KBTUDiplomaApp.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		6AC43499EF77EF4A9915762C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6A2FBA67A3076CE889B7E122 /* Pods_KBTUDiplomaApp.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		856F1C7B2936440F00082F73 = {
 			isa = PBXGroup;
 			children = (
+				85F4CD16296C370C00A2D7EF /* Homebank.mp4 */,
+				85F4CD17296C370D00A2D7EF /* Kaspi.kz.MP4 */,
 				856F1C862936440F00082F73 /* KBTUDiplomaApp */,
 				856F1C852936440F00082F73 /* Products */,
-				3314205E1A78473E26E5E332 /* Pods */,
-				6AC43499EF77EF4A9915762C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,6 +195,26 @@
 				85DCDACA29470C4800945E71 /* TeachersVC.swift */,
 				85DCDACC29475EA300945E71 /* MainVC.swift */,
 				85A8994329476EB500718A0F /* TestVC.swift */,
+				85392F76294A010F0084156E /* GetGrantVC.swift */,
+				85392F7C294A07E80084156E /* GetPayment.swift */,
+				854AE699294A0FB500C7A3C0 /* InfoVC.swift */,
+				854AE69B294A128400C7A3C0 /* DMISVC.swift */,
+				854AE69D294A14FA00C7A3C0 /* BachelourPrograms.swift */,
+				854AE69F294A175500C7A3C0 /* DocumentsListVC.swift */,
+				854AE6A3294A1B4200C7A3C0 /* OplataVC.swift */,
+				854AE6A5294A1D9B00C7A3C0 /* HomeBankVideoVC.swift */,
+				854AE6A9294F03F300C7A3C0 /* PerezachetVC.swift */,
+				854AE6AD294F069A00C7A3C0 /* PerezachetInfoVC.swift */,
+				854AE6AF294F07A000C7A3C0 /* KeletInfoVC.swift */,
+				854AE6B1294F090600C7A3C0 /* KeletVC.swift */,
+				854AE6B3294F187500C7A3C0 /* MapsList.swift */,
+				854AE6B7294F1CB500C7A3C0 /* FirstFloorVC.swift */,
+				851D59CF294F304100E1CD74 /* SecondFloorVC.swift */,
+				851D59D1294F304A00E1CD74 /* ThirdFloorVC.swift */,
+				851D59D3294F305400E1CD74 /* FourthFloorVC.swift */,
+				851D59D5294F305D00E1CD74 /* FifthFloorVC.swift */,
+				85F4CD14296B006B00A2D7EF /* KaspiVideo.swift */,
+				85F4CD1A296C3AC000A2D7EF /* HomeBankVideo.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -167,10 +223,17 @@
 			isa = PBXGroup;
 			children = (
 				8503E8AE29462880007B67C9 /* price_kbtu_2022_2023.pdf */,
-				85472099293A25C700616DA2 /* News.swift */,
+				854AE6AB294F052B00C7A3C0 /* pam_per_kbtu_5.pdf */,
+				85F4CD12296AF52D00A2D7EF /* HomeBankScreen.png */,
+				85F4CD1C296C3C0F00A2D7EF /* KaspiScreen.png */,
 				854720A6293A312D00616DA2 /* Teachers.swift */,
 				854720A4293A2CC100616DA2 /* RawNews.swift */,
 				854720A8293A315E00616DA2 /* Faculties.swift */,
+				85392F78294A018E0084156E /* GetGrantInfo.swift */,
+				85392F7A294A06B20084156E /* GetPaymentInfo.swift */,
+				854AE697294A0EDC00C7A3C0 /* Info.swift */,
+				854AE6A1294A17C900C7A3C0 /* DocumentsList.swift */,
+				854AE6B5294F1A2B00C7A3C0 /* Maps.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -200,11 +263,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 856F1C982936441000082F73 /* Build configuration list for PBXNativeTarget "KBTUDiplomaApp" */;
 			buildPhases = (
-				1C4A14B448ACC805A51C0596 /* [CP] Check Pods Manifest.lock */,
 				856F1C802936440F00082F73 /* Sources */,
 				856F1C812936440F00082F73 /* Frameworks */,
 				856F1C822936440F00082F73 /* Resources */,
-				B71E8A85EEC97B951D0B0749 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +314,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85F4CD18296C370D00A2D7EF /* Homebank.mp4 in Resources */,
+				85F4CD19296C370D00A2D7EF /* Kaspi.kz.MP4 in Resources */,
+				85F4CD1D296C3C0F00A2D7EF /* KaspiScreen.png in Resources */,
 				856F1C942936441000082F73 /* LaunchScreen.storyboard in Resources */,
 				85DCDAC929466DA000945E71 /* MyCollectionViewCell.xib in Resources */,
 				85DCDAC529466D7E00945E71 /* CollectionTableViewCell.xib in Resources */,
@@ -260,75 +324,59 @@
 				854720AD293E280800616DA2 /* NewsCell.xib in Resources */,
 				856F1C8F2936440F00082F73 /* Main.storyboard in Resources */,
 				8503E8AF29462880007B67C9 /* price_kbtu_2022_2023.pdf in Resources */,
+				854AE6AC294F052B00C7A3C0 /* pam_per_kbtu_5.pdf in Resources */,
+				85F4CD13296AF52D00A2D7EF /* HomeBankScreen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		1C4A14B448ACC805A51C0596 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-KBTUDiplomaApp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B71E8A85EEC97B951D0B0749 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KBTUDiplomaApp/Pods-KBTUDiplomaApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KBTUDiplomaApp/Pods-KBTUDiplomaApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KBTUDiplomaApp/Pods-KBTUDiplomaApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		856F1C802936440F00082F73 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				854AE69E294A14FA00C7A3C0 /* BachelourPrograms.swift in Sources */,
 				856F1C882936440F00082F73 /* AppDelegate.swift in Sources */,
 				8574B19829416C9000BCB424 /* MapVC.swift in Sources */,
+				851D59D4294F305400E1CD74 /* FourthFloorVC.swift in Sources */,
+				854AE6AA294F03F300C7A3C0 /* PerezachetVC.swift in Sources */,
+				854AE6A4294A1B4200C7A3C0 /* OplataVC.swift in Sources */,
+				854AE6A6294A1D9B00C7A3C0 /* HomeBankVideoVC.swift in Sources */,
+				854AE6B0294F07A000C7A3C0 /* KeletInfoVC.swift in Sources */,
+				854AE6A2294A17C900C7A3C0 /* DocumentsList.swift in Sources */,
 				854720B5293E3C6A00616DA2 /* HomeViewController.swift in Sources */,
+				85F4CD15296B006B00A2D7EF /* KaspiVideo.swift in Sources */,
+				854AE6B6294F1A2B00C7A3C0 /* Maps.swift in Sources */,
+				85F4CD1B296C3AC000A2D7EF /* HomeBankVideo.swift in Sources */,
 				854720A7293A312D00616DA2 /* Teachers.swift in Sources */,
+				851D59D2294F304A00E1CD74 /* ThirdFloorVC.swift in Sources */,
 				85DCDACB29470C4800945E71 /* TeachersVC.swift in Sources */,
 				85DCDACD29475EA300945E71 /* MainVC.swift in Sources */,
-				8547209A293A25C700616DA2 /* News.swift in Sources */,
+				851D59D6294F305D00E1CD74 /* FifthFloorVC.swift in Sources */,
+				854AE69A294A0FB500C7A3C0 /* InfoVC.swift in Sources */,
 				85BF9C8E29414D7700E7CFA9 /* FacultyDetailsVC.swift in Sources */,
 				8574B19A294208A200BCB424 /* PricePDF.swift in Sources */,
+				85392F7B294A06B20084156E /* GetPaymentInfo.swift in Sources */,
 				854720A5293A2CC100616DA2 /* RawNews.swift in Sources */,
+				854AE6A0294A175500C7A3C0 /* DocumentsListVC.swift in Sources */,
+				85392F77294A010F0084156E /* GetGrantVC.swift in Sources */,
 				85A8994429476EB500718A0F /* TestVC.swift in Sources */,
 				85DCDAC829466DA000945E71 /* MyCollectionViewCell.swift in Sources */,
 				854720A9293A315E00616DA2 /* Faculties.swift in Sources */,
+				854AE6B8294F1CB500C7A3C0 /* FirstFloorVC.swift in Sources */,
 				854720AC293E280800616DA2 /* NewsCell.swift in Sources */,
+				85392F7D294A07E90084156E /* GetPayment.swift in Sources */,
 				854720B82941469D00616DA2 /* FacultiesViewController.swift in Sources */,
+				85392F79294A018E0084156E /* GetGrantInfo.swift in Sources */,
 				85DCDAC429466D7E00945E71 /* CollectionTableViewCell.swift in Sources */,
+				854AE6AE294F069A00C7A3C0 /* PerezachetInfoVC.swift in Sources */,
+				854AE69C294A128400C7A3C0 /* DMISVC.swift in Sources */,
 				856F1C8A2936440F00082F73 /* SceneDelegate.swift in Sources */,
+				854AE698294A0EDC00C7A3C0 /* Info.swift in Sources */,
+				851D59D0294F304100E1CD74 /* SecondFloorVC.swift in Sources */,
+				854AE6B4294F187500C7A3C0 /* MapsList.swift in Sources */,
+				854AE6B2294F090600C7A3C0 /* KeletVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,7 +518,6 @@
 		};
 		856F1C992936441000082F73 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A6C3C588A4DC63D3FA675AEC /* Pods-KBTUDiplomaApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -499,7 +546,6 @@
 		};
 		856F1C9A2936441000082F73 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 362609EE588C58BD8A6124E5 /* Pods-KBTUDiplomaApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

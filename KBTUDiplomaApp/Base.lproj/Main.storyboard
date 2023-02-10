@@ -6,7 +6,6 @@
         <capability name="Map view configurations" minToolsVersion="14.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
-        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -50,7 +49,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1707" y="2667"/>
+            <point key="canvasLocation" x="-3722" y="1795"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Xv5-4c-fn2">
@@ -76,7 +75,98 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ndU-ub-B2Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2443.4782608695655" y="2666.5178571428569"/>
+            <point key="canvasLocation" x="-3722" y="2480"/>
+        </scene>
+        <!--DMISVC-->
+        <scene sceneID="CHF-eF-MuY">
+            <objects>
+                <viewController storyboardIdentifier="DMISVC" id="8ML-UH-bx0" customClass="DMISVC" customModule="KBTUDiplomaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hVF-fV-Lb7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dzH-Mw-JjF">
+                                <rect key="frame" x="20" y="92" width="374" height="721"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Дом магистрантов и студентов КБТУ
+
+Дом магистрантов и студентов (ДМиС) – это общежитие нового поколения с комфортабельными меблированными комнатами, где созданы все условия для жизни, учебы и отдыха. ДМиС КБТУ включает четыре жилых корпуса на 825 мест. Комфортабельные 1, 2, 3 и 4-х местные комнаты меблированы и обеспечены интернет-подключением (wi-fi), так же, как и общие пространства для учебы. Бытовые помещения оборудованы стиральными машинами-автомат и гладильными досками. В читальном зале собрана богатая библиотека, в том числе периодики. Ежегодно проводится ремонт и обновляются мебель и бытовая техника. В плановом порядке производится стирка белья, дератизация, дезинсекция территории, помещений, подвалов, термообработка постельных принадлежностей, химчистка ковров и мягкой мебели, ремонт бытовой техники, перезарядка огнетушителей, вывоз мусора и т.д.
+ 
+Инфраструктура и досуг
+Общая территория жилого комплекса, который расположен в районе с развитой инфраструктурой, – более 1 гектара. Рядом легко можно найти супермаркеты, банкоматы, аптеки, автобусные остановки и многое другое. Особую уютную атмосферу создает природа: во дворе Дома растут сосны, сирень и можжевельник.
+В общежитии также решены вопросы досуга и питания. Работают две столовые, где можно недорого и вкусно перекусить. Комнаты отдыха оснащены кабельным телевидением. Имеются тренажерный зал и настольный теннис. Во дворе есть беседки, спортивная площадка и футбольное поле.
+ 
+Медицинская помощь и безопасность
+В целях оказания первой доврачебной медицинской помощи, проведения первичной консультации проживающим студентам, магистрантам и сотрудникам, в штате ДМиС имеется квалифицированный медицинский работник
+При выявлении студентов с острыми заболеваниями, в т.ч. инфекционными, на территории общежития находится изолятор.
+Для обеспечения безопасности жильцов, пропуск в ДМиС осуществляется Системой контроля и учета доступа, установлены турникеты и двери со считывающими устройствами, установлены камеры видеонаблюдения на территории и в местах общего пользования.
+ 
+Порядок распределения мест в ДМиС
+Перечень очередности социальных категорий, которые являются приоритетными при распределении мест в ДМиС:
+ 
+1. дети-сироты, оставшиеся без попечения родителей;*
+2. сироты под опекой;*
+3. дети-инвалиды;**
+4. родители /один из родителей/ инвалиды 1,2 группы;**
+5. дети из многодетных семей, получающие пособие по многодетности;**
+6. дети из малообеспеченных семей, получающие АСП; **
+7. иностранные граждане;
+8. лица из числа сельской молодежи, поступившие на обучение по образовательным программам, определяющим социально-экономическое развитие села;
+9. кандасы, не являющиеся гражданами РК;
+10. студенты с высокими академическими показателями (высокий GРА, высокий балл ЕНТ 120 и выше), активно участвующие в жизни университета и/или ДМиС;
+    Все остальные категории, не относящиеся к вышеперечисленным пунктам, будут рассматриваться на общих основаниях в приоритетном порядке.
+ 
+Примечание: * - бесплатное проживание,
+     ** - льгота 50% от соответствующей стоимости, при этом необходимо обязательное предоставление подтверждающих документов.
+ 
+          Документы для заселения:
+1) заявление о предоставлении места в общежитии по форме, согласно приложению №2 «Порядка предоставления мест и проживания в ДМиС»;
+2) документ, удостоверяющий личность (для идентификации).
+ 
+         Порядок заселения:
+Получение допуска у медицинского работника ДМиС;
+Подписание договора на проживание;
+Оплата за период, указанный в договоре. 
+
+           Стоимость проживания:
+в 1-местной комнате (за 1 место) -            40 000 тенге/месяц
+в 2-местной комнате (за 1 место) -            30 000 тенге/месяц
+в 3-местной комнате (за 1 место) -            25 000 тенге/месяц
+в 4-местной комнате (за 1 место) -            21 500 тенге/месяц
+
+КОНТАКТЫ
+ 
+Директор ДМиС: 
+Шопанов Мухтар Сабурович
+8 (727) 357-42-42 
+вн.600 
+m.shopanov@kbtu.kz
+
+Главный менеджер ДМиС:
+Есимбекова Айжан Бериковна
+8 (727) 357-42-42 
+вн.603
+a.esimbekova@kbtu.kz
+
+Сектор по обеспечению безопасности
+8 (727) 357-42-42 (круглосуточно)
+вн.613
+
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="CF3-GS-wUZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="NKM-Ka-Lx4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UEH-yi-GkJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2762.3188405797105" y="1851.5625"/>
         </scene>
         <!--MainVC-->
         <scene sceneID="5TE-fG-IeQ">
@@ -115,7 +205,7 @@
                                                         <rect key="frame" x="0.0" y="200" width="414" height="50"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Аккредитации" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1er-zj-e8L">
-                                                                <rect key="frame" x="132" y="13" width="150" height="24"/>
+                                                                <rect key="frame" x="119" y="13" width="177" height="24"/>
                                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -126,8 +216,8 @@
                                                             <constraint firstAttribute="bottom" secondItem="1er-zj-e8L" secondAttribute="bottom" constant="13" id="9kl-8G-hTC"/>
                                                             <constraint firstItem="1er-zj-e8L" firstAttribute="top" secondItem="v0k-iP-qdq" secondAttribute="top" constant="13" id="F7P-Vg-ycY"/>
                                                             <constraint firstAttribute="height" constant="50" id="P0R-6n-wvk"/>
-                                                            <constraint firstAttribute="trailing" secondItem="1er-zj-e8L" secondAttribute="trailing" constant="132" id="a9b-3Y-Cmg"/>
-                                                            <constraint firstItem="1er-zj-e8L" firstAttribute="leading" secondItem="v0k-iP-qdq" secondAttribute="leading" constant="132" id="b68-nC-l7j"/>
+                                                            <constraint firstAttribute="trailing" secondItem="1er-zj-e8L" secondAttribute="trailing" constant="118" id="a9b-3Y-Cmg"/>
+                                                            <constraint firstItem="1er-zj-e8L" firstAttribute="leading" secondItem="v0k-iP-qdq" secondAttribute="leading" constant="119" id="b68-nC-l7j"/>
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u05-ST-JGA" userLabel="Akkred">
@@ -262,69 +352,68 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LVT-uj-Ux5" userLabel="Faculties">
                                                         <rect key="frame" x="0.0" y="400" width="414" height="350"/>
                                                         <subviews>
-                                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Rcg-br-ynh">
-                                                                <rect key="frame" x="0.0" y="0.0" width="414" height="277"/>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Школа информационных технологий и инженерии" translatesAutoresizingMaskIntoConstraints="NO" id="y0I-Mb-ShK">
+                                                                <rect key="frame" x="8" y="8" width="110" height="110"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Kil-nK-Hn9">
-                                                                    <size key="itemSize" width="128" height="128"/>
-                                                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                                                </collectionViewFlowLayout>
-                                                                <cells>
-                                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="facultyCell" id="Pm2-Y7-tNl">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="LsI-Kf-FRW">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                                                            <autoresizingMask key="autoresizingMask"/>
-                                                                        </collectionViewCellContentView>
-                                                                    </collectionViewCell>
-                                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="W3n-hl-kV6">
-                                                                        <rect key="frame" x="0.0" y="149" width="128" height="128"/>
-                                                                        <autoresizingMask key="autoresizingMask"/>
-                                                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="nK8-vX-qUT">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                                                            <autoresizingMask key="autoresizingMask"/>
-                                                                        </collectionViewCellContentView>
-                                                                    </collectionViewCell>
-                                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="e7V-ke-DiG">
-                                                                        <rect key="frame" x="138" y="0.0" width="128" height="128"/>
-                                                                        <autoresizingMask key="autoresizingMask"/>
-                                                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="nQf-c0-wap">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                                                            <autoresizingMask key="autoresizingMask"/>
-                                                                        </collectionViewCellContentView>
-                                                                    </collectionViewCell>
-                                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="O0M-KK-Gd7">
-                                                                        <rect key="frame" x="138" y="149" width="128" height="128"/>
-                                                                        <autoresizingMask key="autoresizingMask"/>
-                                                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="ip7-s6-lHZ">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                                                            <autoresizingMask key="autoresizingMask"/>
-                                                                        </collectionViewCellContentView>
-                                                                    </collectionViewCell>
-                                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="XRz-e8-3Jf">
-                                                                        <rect key="frame" x="276" y="0.0" width="128" height="128"/>
-                                                                        <autoresizingMask key="autoresizingMask"/>
-                                                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="7rE-gB-2CM">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                                                            <autoresizingMask key="autoresizingMask"/>
-                                                                        </collectionViewCellContentView>
-                                                                    </collectionViewCell>
-                                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Ar9-v3-2Ki">
-                                                                        <rect key="frame" x="276" y="149" width="128" height="128"/>
-                                                                        <autoresizingMask key="autoresizingMask"/>
-                                                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="ccx-FC-50Q">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                                                            <autoresizingMask key="autoresizingMask"/>
-                                                                        </collectionViewCellContentView>
-                                                                    </collectionViewCell>
-                                                                </cells>
-                                                            </collectionView>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                        <integer key="value" value="25"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </imageView>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Бизнес Школа" translatesAutoresizingMaskIntoConstraints="NO" id="ksa-Cs-cgB">
+                                                                <rect key="frame" x="143" y="8" width="110" height="110"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                        <integer key="value" value="25"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </imageView>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Международная школа экономики" translatesAutoresizingMaskIntoConstraints="NO" id="gSS-3X-reV">
+                                                                <rect key="frame" x="279" y="8" width="110" height="110"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                        <integer key="value" value="25"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </imageView>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Школа Энергетики и нефтегазовой индустрии" translatesAutoresizingMaskIntoConstraints="NO" id="vee-i2-R6G">
+                                                                <rect key="frame" x="8" y="144" width="110" height="110"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                        <integer key="value" value="25"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </imageView>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Факультет геологии и геологоразведки" translatesAutoresizingMaskIntoConstraints="NO" id="gga-h7-3Df">
+                                                                <rect key="frame" x="143" y="144" width="110" height="110"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                        <integer key="value" value="25"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </imageView>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Школа Прикладной Математики" translatesAutoresizingMaskIntoConstraints="NO" id="Vx7-Y7-tAh">
+                                                                <rect key="frame" x="279" y="144" width="110" height="110"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                        <integer key="value" value="25"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </imageView>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ga-hB-Wzc">
-                                                                <rect key="frame" x="127" y="291" width="161" height="45"/>
+                                                                <rect key="frame" x="114" y="291" width="187" height="45"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="45" id="yVq-nH-sBY"/>
                                                                 </constraints>
@@ -334,15 +423,15 @@
                                                                 </buttonConfiguration>
                                                                 <connections>
                                                                     <action selector="allFacultiesButton:" destination="6uo-fu-dS0" eventType="touchUpInside" id="PTT-6m-9J4"/>
-                                                                    <segue destination="Gbm-h4-UPq" kind="show" id="dB9-Ji-bW2"/>
+                                                                    <segue destination="ZQF-ph-GH2" kind="show" id="dB9-Ji-bW2"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
-                                                            <constraint firstItem="6ga-hB-Wzc" firstAttribute="leading" secondItem="LVT-uj-Ux5" secondAttribute="leading" constant="127" id="7YV-ma-0bv"/>
+                                                            <constraint firstItem="6ga-hB-Wzc" firstAttribute="leading" secondItem="LVT-uj-Ux5" secondAttribute="leading" constant="114" id="7YV-ma-0bv"/>
                                                             <constraint firstAttribute="bottom" secondItem="6ga-hB-Wzc" secondAttribute="bottom" constant="14" id="P0f-Ti-Umx"/>
-                                                            <constraint firstAttribute="trailing" secondItem="6ga-hB-Wzc" secondAttribute="trailing" constant="126" id="dKj-Ry-yNV"/>
+                                                            <constraint firstAttribute="width" constant="414" id="TAC-yp-omq"/>
+                                                            <constraint firstAttribute="trailing" secondItem="6ga-hB-Wzc" secondAttribute="trailing" constant="113" id="dKj-Ry-yNV"/>
                                                             <constraint firstAttribute="height" constant="350" id="fly-pT-8iI"/>
                                                         </constraints>
                                                     </view>
@@ -479,7 +568,7 @@
                                                         <rect key="frame" x="0.0" y="1023" width="414" height="50"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Шаги поступления" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BuT-mZ-t7F">
-                                                                <rect key="frame" x="105" y="13" width="204" height="24"/>
+                                                                <rect key="frame" x="85" y="13" width="245" height="24"/>
                                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -488,16 +577,16 @@
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstItem="BuT-mZ-t7F" firstAttribute="top" secondItem="OEg-hk-gqu" secondAttribute="top" constant="13" id="7kW-cX-Un8"/>
-                                                            <constraint firstItem="BuT-mZ-t7F" firstAttribute="leading" secondItem="OEg-hk-gqu" secondAttribute="leading" constant="105" id="AxA-1b-scu"/>
+                                                            <constraint firstItem="BuT-mZ-t7F" firstAttribute="leading" secondItem="OEg-hk-gqu" secondAttribute="leading" constant="85" id="AxA-1b-scu"/>
                                                             <constraint firstAttribute="height" constant="50" id="EcZ-x9-epn"/>
-                                                            <constraint firstAttribute="trailing" secondItem="BuT-mZ-t7F" secondAttribute="trailing" constant="105" id="OzL-Vg-gIe"/>
+                                                            <constraint firstAttribute="trailing" secondItem="BuT-mZ-t7F" secondAttribute="trailing" constant="84" id="OzL-Vg-gIe"/>
                                                             <constraint firstAttribute="bottom" secondItem="BuT-mZ-t7F" secondAttribute="bottom" constant="13" id="X8R-MA-38e"/>
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Usn-D2-hg3" userLabel="AdmissionSteps">
                                                         <rect key="frame" x="0.0" y="1073" width="414" height="200"/>
                                                         <subviews>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" alignment="lastBaseline" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Cp0-C7-QWS">
+                                                            <stackView opaque="NO" contentMode="scaleToFill" alignment="lastBaseline" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Cp0-C7-QWS">
                                                                 <rect key="frame" x="27" y="8" width="360" height="148"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y19-ZU-eoM">
@@ -535,8 +624,11 @@
                                                                         </constraints>
                                                                     </view>
                                                                 </subviews>
+                                                                <constraints>
+                                                                    <constraint firstItem="Y19-ZU-eoM" firstAttribute="leading" secondItem="Cp0-C7-QWS" secondAttribute="leading" id="zOx-0A-F6w"/>
+                                                                </constraints>
                                                             </stackView>
-                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2g8-H5-aFn">
+                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2g8-H5-aFn">
                                                                 <rect key="frame" x="222" y="159" width="165" height="32"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <state key="normal" title="Button"/>
@@ -544,6 +636,9 @@
                                                                     <fontDescription key="titleFontDescription" type="system" pointSize="0.0"/>
                                                                     <color key="baseBackgroundColor" red="0.0039215686269999999" green="0.20784313730000001" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <segue destination="hXN-sz-q1s" kind="show" id="NzH-je-uhu"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EZE-eZ-i13">
                                                                 <rect key="frame" x="27" y="159" width="165" height="32"/>
@@ -554,20 +649,22 @@
                                                                     <color key="baseBackgroundColor" red="0.0039215686269999999" green="0.20784313730000001" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </buttonConfiguration>
                                                                 <connections>
-                                                                    <segue destination="BYZ-38-t0r" kind="show" id="yhV-ZQ-61q"/>
+                                                                    <segue destination="qtQ-hP-T2d" kind="show" id="7Cw-IC-Wed"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
+                                                            <constraint firstItem="Cp0-C7-QWS" firstAttribute="top" secondItem="Usn-D2-hg3" secondAttribute="top" constant="8" id="aOh-gg-XYe"/>
                                                             <constraint firstAttribute="height" constant="200" id="cBe-Ak-gdM"/>
+                                                            <constraint firstAttribute="trailing" secondItem="Cp0-C7-QWS" secondAttribute="trailing" constant="27" id="ouK-US-JKQ"/>
+                                                            <constraint firstItem="Cp0-C7-QWS" firstAttribute="leading" secondItem="Usn-D2-hg3" secondAttribute="leading" constant="27" id="qjW-hK-1Gp"/>
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="12r-Zu-Ucn" userLabel="DMIS">
                                                         <rect key="frame" x="0.0" y="1273" width="414" height="50"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gto-fC-LMK">
-                                                                <rect key="frame" x="52" y="13" width="311" height="24"/>
+                                                                <rect key="frame" x="38" y="13" width="338" height="24"/>
                                                                 <string key="text">Дом магистрантов и студентов
 
 </string>
@@ -578,14 +675,14 @@
                                                         </subviews>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
-                                                            <constraint firstItem="gto-fC-LMK" firstAttribute="leading" secondItem="12r-Zu-Ucn" secondAttribute="leading" constant="52" id="4e9-6V-saO"/>
+                                                            <constraint firstItem="gto-fC-LMK" firstAttribute="leading" secondItem="12r-Zu-Ucn" secondAttribute="leading" constant="38" id="4e9-6V-saO"/>
                                                             <constraint firstItem="gto-fC-LMK" firstAttribute="top" secondItem="12r-Zu-Ucn" secondAttribute="top" constant="13" id="6mi-Fd-c5i"/>
                                                             <constraint firstAttribute="bottom" secondItem="gto-fC-LMK" secondAttribute="bottom" constant="13" id="9yK-Io-tK3"/>
-                                                            <constraint firstAttribute="trailing" secondItem="gto-fC-LMK" secondAttribute="trailing" constant="51" id="DFY-P6-1m2"/>
+                                                            <constraint firstAttribute="trailing" secondItem="gto-fC-LMK" secondAttribute="trailing" constant="38" id="DFY-P6-1m2"/>
                                                             <constraint firstAttribute="height" constant="50" id="m5M-dV-SNM"/>
                                                         </constraints>
                                                     </view>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cE5-qS-zJq">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cE5-qS-zJq" userLabel="DMISMap">
                                                         <rect key="frame" x="0.0" y="1323" width="414" height="400"/>
                                                         <subviews>
                                                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qgh-Eq-fXT">
@@ -600,6 +697,9 @@
                                                                 <buttonConfiguration key="configuration" style="filled" title="Стоимость">
                                                                     <color key="baseBackgroundColor" red="0.0039215686269999999" green="0.20784313730000001" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <segue destination="8ML-UH-bx0" kind="show" id="wCj-q0-gI1"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -608,6 +708,10 @@
                                                         </constraints>
                                                     </view>
                                                 </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="LVT-uj-Ux5" firstAttribute="leading" secondItem="Y9W-Sn-yVa" secondAttribute="leading" id="irQ-EE-VFv"/>
+                                                    <constraint firstAttribute="trailing" secondItem="LVT-uj-Ux5" secondAttribute="trailing" id="uqe-hG-TW7"/>
+                                                </constraints>
                                             </stackView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -624,6 +728,7 @@
                                     <constraint firstAttribute="bottom" secondItem="LEd-J3-oo4" secondAttribute="bottom" constant="489" id="Fit-zk-uF2"/>
                                     <constraint firstItem="LEd-J3-oo4" firstAttribute="leading" secondItem="0qa-FM-22r" secondAttribute="leading" id="dK9-U7-hHY"/>
                                     <constraint firstAttribute="trailing" secondItem="LEd-J3-oo4" secondAttribute="trailing" id="fcw-CA-Wja"/>
+                                    <constraint firstAttribute="height" constant="1417" id="jCg-Sc-pRd"/>
                                     <constraint firstItem="LEd-J3-oo4" firstAttribute="top" secondItem="0qa-FM-22r" secondAttribute="top" id="tEP-oq-V5C"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="Z7e-nM-skH"/>
@@ -646,26 +751,606 @@
                     <navigationItem key="navigationItem" id="SfN-Wf-P9b"/>
                     <size key="freeformSize" width="414" height="1500"/>
                     <connections>
+                        <outlet property="abetImageView" destination="lDj-su-6e3" id="AKf-9F-6Ye"/>
+                        <outlet property="acbspImageView" destination="CHb-3l-7dE" id="I3C-iK-ZLA"/>
+                        <outlet property="accaImageView" destination="1G4-fj-ypZ" id="hUM-a2-bxo"/>
+                        <outlet property="cfaImageView" destination="8wc-2M-Jsv" id="zpE-b3-oV4"/>
                         <outlet property="dmisMap" destination="Qgh-Eq-fXT" id="PIf-hi-Z28"/>
+                        <outlet property="fitImageView" destination="y0I-Mb-ShK" id="kBh-dY-wPu"/>
+                        <outlet property="hkaokoImageView" destination="NdE-T5-dWJ" id="gjg-lC-Ukc"/>
+                        <outlet property="qsImageView" destination="Ch8-vK-Gla" id="85G-k2-Ias"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jzx-5u-0JU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="vjb-Xk-XbP" userLabel="GrantTGR"/>
                 <tapGestureRecognizer id="yKg-DZ-is8" userLabel="PaymentTGR"/>
             </objects>
-            <point key="canvasLocation" x="-991.304347826087" y="1742.4107142857142"/>
+            <point key="canvasLocation" x="-1939.1304347826087" y="1740.4017857142856"/>
+        </scene>
+        <!--Maps List-->
+        <scene sceneID="fLz-xc-5pU">
+            <objects>
+                <viewController id="BYi-kt-usL" customClass="MapsList" customModule="KBTUDiplomaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WLU-jg-MDA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Wbx-lQ-daz">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="mapsCell" rowHeight="103" id="1AX-sG-WU6">
+                                        <rect key="frame" x="0.0" y="50" width="414" height="103"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1AX-sG-WU6" id="Oqt-Bt-0tS">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="103"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="RKq-x6-aK9"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="YMr-K4-SCg"/>
+                    <connections>
+                        <outlet property="mapsTable" destination="Wbx-lQ-daz" id="kRF-d5-DSs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I4m-SO-sRd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="366.66666666666669" y="1542.8571428571429"/>
+        </scene>
+        <!--Bachelour Programs-->
+        <scene sceneID="n2B-uT-4wf">
+            <objects>
+                <viewController storyboardIdentifier="BachelourPrograms" id="Os1-wk-31m" customClass="BachelourPrograms" customModule="KBTUDiplomaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FvL-ov-NdD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C1V-3p-0Sk">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xfQ-VZ-1TV"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="C1V-3p-0Sk" firstAttribute="leading" secondItem="xfQ-VZ-1TV" secondAttribute="leading" id="1nM-sw-xXU"/>
+                            <constraint firstItem="C1V-3p-0Sk" firstAttribute="top" secondItem="FvL-ov-NdD" secondAttribute="top" id="Niq-jX-irm"/>
+                            <constraint firstItem="C1V-3p-0Sk" firstAttribute="trailing" secondItem="xfQ-VZ-1TV" secondAttribute="trailing" id="QU2-8E-UC6"/>
+                            <constraint firstAttribute="bottom" secondItem="C1V-3p-0Sk" secondAttribute="bottom" id="lp6-jl-gqG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="programmsWebKit" destination="C1V-3p-0Sk" id="w9r-QB-uCB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rpS-Gg-LlX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1276.8115942028987" y="2682.5892857142858"/>
+        </scene>
+        <!--Perezachet InfoVC-->
+        <scene sceneID="vKY-50-ElD">
+            <objects>
+                <viewController storyboardIdentifier="PerezachetInfoVC" id="E0E-uX-0LQ" customClass="PerezachetInfoVC" customModule="KBTUDiplomaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IUA-hT-Uoq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ПЕРЕЗАЧЕТ ДИСЦИПЛИН ДЛЯ ФОКУСНЫХ ШКОЛ КБТУ" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vdN-qU-Sjl">
+                                <rect key="frame" x="90" y="60" width="234" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="31S-fB-uVI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="udr-rn-M50">
+                                <rect key="frame" x="20" y="130" width="374" height="525"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="525" id="MVU-DE-j54"/>
+                                </constraints>
+                                <string key="text">Выпускникам фокусных школ (НИШ, РФМШ, БИЛ, НУРОРДА, Мирас, TAMOS, Международная школа Алматы, Арыстан, Iqanat) предоставляется возможность обучения в КБТУ по программам бакалавриата с сокращенным сроком обучения при условии перезачета дисциплин на платной основе.
+ 
+Перезачет производится на основе:
+Международных сертификатов (IELTS, TOEFL, МЭСК, IB diploma) – платно.
+Комплексного экзамена КБТУ – платно.
+ 
+Перезачёт дисциплин осуществляется в формате онлайн.
+Каждая дисциплина перезачитывается после внесения оплаты из расчета 20 000 тенге за одну дисциплину, кроме дисциплины Английский язык.
+Стоимость перезачёта по дисциплине Английский язык составляет 40 000 тенге.
+ 
+Полная информация по перезачету дисциплин изложена в Памятке.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zx3-IN-A5G">
+                                <rect key="frame" x="83" y="675" width="248" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="A8q-Q2-3CO"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="ПАМЯТКА ПО ПЕРЕЗАЧЕТУ ДЛЯ ФОКУСНЫХ ШКОЛ КБТУ">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="13"/>
+                                    <color key="baseBackgroundColor" red="0.0039215686269999999" green="0.20784313730000001" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="K6m-zM-hEQ" kind="show" id="Vfj-S7-qW3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="SvT-KZ-YSh"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="SvT-KZ-YSh" firstAttribute="bottom" secondItem="zx3-IN-A5G" secondAttribute="bottom" constant="136" id="2fo-ku-9sx"/>
+                            <constraint firstItem="udr-rn-M50" firstAttribute="top" secondItem="vdN-qU-Sjl" secondAttribute="bottom" constant="20" id="5ql-TT-3Xj"/>
+                            <constraint firstItem="SvT-KZ-YSh" firstAttribute="trailing" secondItem="zx3-IN-A5G" secondAttribute="trailing" constant="83" id="6hR-fY-hMx"/>
+                            <constraint firstItem="udr-rn-M50" firstAttribute="leading" secondItem="SvT-KZ-YSh" secondAttribute="leading" constant="20" id="CSq-eN-Zr1"/>
+                            <constraint firstItem="vdN-qU-Sjl" firstAttribute="top" secondItem="SvT-KZ-YSh" secondAttribute="top" constant="12" id="LZf-TA-du5"/>
+                            <constraint firstItem="SvT-KZ-YSh" firstAttribute="trailing" secondItem="udr-rn-M50" secondAttribute="trailing" constant="20" id="NEJ-7q-PUQ"/>
+                            <constraint firstItem="vdN-qU-Sjl" firstAttribute="leading" secondItem="SvT-KZ-YSh" secondAttribute="leading" constant="90" id="WoK-eB-Ekp"/>
+                            <constraint firstItem="zx3-IN-A5G" firstAttribute="leading" secondItem="SvT-KZ-YSh" secondAttribute="leading" constant="83" id="a8v-w7-QNc"/>
+                            <constraint firstItem="SvT-KZ-YSh" firstAttribute="trailing" secondItem="vdN-qU-Sjl" secondAttribute="trailing" constant="90" id="f9D-XU-IBX"/>
+                            <constraint firstItem="zx3-IN-A5G" firstAttribute="top" secondItem="udr-rn-M50" secondAttribute="bottom" constant="20" id="qf0-if-bwK"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="qwE-pj-jun"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PaS-nY-7jG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-319" y="2894"/>
+        </scene>
+        <!--PerezachetVC-->
+        <scene sceneID="bKa-I9-dqa">
+            <objects>
+                <viewController storyboardIdentifier="PerezachetVC" id="K6m-zM-hEQ" customClass="PerezachetVC" customModule="KBTUDiplomaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JeQ-pT-clP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="838"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="sTl-Bf-Yyx"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="8cq-ad-ChM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JaF-u7-7Yn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-320" y="3619"/>
+        </scene>
+        <!--KeletVC-->
+        <scene sceneID="OMo-m0-c0X">
+            <objects>
+                <viewController id="WmB-Np-HZN" customClass="KeletVC" customModule="KBTUDiplomaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jbc-pT-t5S">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="32g-L2-8T1">
+                                <rect key="frame" x="0.0" y="92" width="414" height="804"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ndH-NR-kPh"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3xF-yG-8Md"/>
+                    <connections>
+                        <outlet property="passKeletWebKit" destination="32g-L2-8T1" id="UR4-bm-DMN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jki-qd-2sO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="405.79710144927537" y="4087.5"/>
+        </scene>
+        <!--Kelet InfoVC-->
+        <scene sceneID="lP4-cX-VPz">
+            <objects>
+                <viewController storyboardIdentifier="KeletInfoVC" id="Ds8-vF-0YN" customClass="KeletInfoVC" customModule="KBTUDiplomaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fWy-51-yWA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Пробный тест по английскому языку KELET" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3eC-jL-78b">
+                                <rect key="frame" x="75" y="97" width="264" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="5QK-cu-8Ze"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dOr-7E-P1E">
+                                <rect key="frame" x="27" y="176" width="360" height="341"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="341" id="lZl-dF-5sl"/>
+                                </constraints>
+                                <string key="text">Обучение в КБТУ на всех программах преподается на английском языке. В связи с этим, абитуриент должен владеть английским языком на хорошем уровне. Данный тест нужен для того, чтобы определить ваш уровень владения английским языком. После прохождения теста вы получите профессиональную рекомендацию от наших преподавателей. А также данный тест помогает университету в распределении студенческих групп по изучению английского языка по уровню знаний данного предмета. При наличии международного сертификата IELTS 5,5 сдача внутреннего теста не требуется.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dGI-6C-Atu">
+                                <rect key="frame" x="83" y="525" width="248" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="hkb-G0-iMd"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="ПАМЯТКА ПО ПЕРЕЗАЧЕТУ ДЛЯ ФОКУСНЫХ ШКОЛ КБТУ">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="13"/>
+                                    <color key="baseBackgroundColor" red="0.0039215686269999999" green="0.20784313730000001" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="WmB-Np-HZN" kind="push" id="QSY-Jx-2Az"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="S7q-y3-Mg4"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="dOr-7E-P1E" firstAttribute="leading" secondItem="S7q-y3-Mg4" secondAttribute="leading" constant="27" id="EUb-Xm-1qT"/>
+                            <constraint firstItem="S7q-y3-Mg4" firstAttribute="trailing" secondItem="3eC-jL-78b" secondAttribute="trailing" constant="75" id="GoM-3f-wfB"/>
+                            <constraint firstItem="S7q-y3-Mg4" firstAttribute="trailing" secondItem="dGI-6C-Atu" secondAttribute="trailing" constant="83" id="KVi-bu-mtg"/>
+                            <constraint firstItem="dGI-6C-Atu" firstAttribute="leading" secondItem="S7q-y3-Mg4" secondAttribute="leading" constant="83" id="NUw-GS-rSo"/>
+                            <constraint firstItem="3eC-jL-78b" firstAttribute="leading" secondItem="S7q-y3-Mg4" secondAttribute="leading" constant="75" id="dj8-gY-ab5"/>
+                            <constraint firstItem="dGI-6C-Atu" firstAttribute="top" secondItem="dOr-7E-P1E" secondAttribute="bottom" constant="8" id="iFc-am-VdH"/>
+                            <constraint firstItem="dOr-7E-P1E" firstAttribute="top" secondItem="3eC-jL-78b" secondAttribute="bottom" constant="20" id="k3J-IC-cWR"/>
+                            <constraint firstItem="S7q-y3-Mg4" firstAttribute="trailing" secondItem="dOr-7E-P1E" secondAttribute="trailing" constant="27" id="m2g-fa-OcY"/>
+                            <constraint firstItem="3eC-jL-78b" firstAttribute="top" secondItem="S7q-y3-Mg4" secondAttribute="top" constant="5" id="nBd-9H-WHT"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="GUk-gB-BDd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3n9-39-q2e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1148" y="3353"/>
+        </scene>
+        <!--Documents ListVC-->
+        <scene sceneID="HmG-3O-DmI">
+            <objects>
+                <viewController storyboardIdentifier="DocumentsListVC" id="YSe-zz-3Ud" customClass="DocumentsListVC" customModule="KBTUDiplomaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CeY-FD-ufF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="bwU-G1-Bdo">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="documentsCell" rowHeight="128" id="rrF-Hh-L6q">
+                                        <rect key="frame" x="0.0" y="50" width="414" height="128"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rrF-Hh-L6q" id="RpL-7l-o8s">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="128"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="A4V-40-VKC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="documentsTable" destination="bwU-G1-Bdo" id="Pg9-HA-SC4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7n0-7a-c2O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1988.4057971014495" y="2682.5892857142858"/>
+        </scene>
+        <!--OplataVC-->
+        <scene sceneID="Cgm-a2-H5d">
+            <objects>
+                <viewController storyboardIdentifier="OplataVC" id="Ngg-qK-VCN" customClass="OplataVC" customModule="KBTUDiplomaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1O5-NY-T0v">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WDs-FI-qgr">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Mv-Ni-vn6">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2370"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="cfc-kR-b94">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="2370"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TaD-aq-CoI">
+                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Дорогие Абитуриенты и Обучающиеся!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Th7-JG-OyK">
+                                                                <rect key="frame" x="15" y="41" width="384" height="21"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="trailing" secondItem="Th7-JG-OyK" secondAttribute="trailing" constant="15" id="BEd-6w-bEj"/>
+                                                            <constraint firstAttribute="bottom" secondItem="Th7-JG-OyK" secondAttribute="bottom" constant="8" id="RiX-RH-FDc"/>
+                                                            <constraint firstAttribute="height" constant="70" id="gC0-fS-ieo"/>
+                                                            <constraint firstItem="Th7-JG-OyK" firstAttribute="leading" secondItem="TaD-aq-CoI" secondAttribute="leading" constant="15" id="nRP-YG-Ld3"/>
+                                                            <constraint firstItem="Th7-JG-OyK" firstAttribute="top" secondItem="TaD-aq-CoI" secondAttribute="top" constant="41" id="tfI-GA-jRF"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ysg-md-IxR">
+                                                        <rect key="frame" x="0.0" y="70" width="414" height="900"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egL-m3-96G">
+                                                                <rect key="frame" x="8" y="8" width="398" height="884"/>
+                                                                <mutableString key="text">За услуги АО «КБТУ» Вы можете оплатить следующими способами:
+ 
+Оплату можно произвести в любом отделении АО “Народный банк Казахстана” или АО “Jusan Bank”. При оплате необходимо иметь при себе удостоверение личности и знать ФИО, ИИН абитуриента/обучающегося.
+Также при оплате в обязательном порядке необходимо указать одно из назначений платежа, а именноза что Вы производите оплату:
+за обучение
+оплата за ритейк (retake)
+пересдача экзамена
+оплата за перезачет дисциплин
+за общежитие
+за утерю карт
+летняя школа (для школьников)
+за публикацию статьи и оплату справки
+за услуги библиотеки
+за подготовительные курсы
+студенческий взнос
+пени/неустойка/штрафы
+ 
+Реквизиты
+АО "Казахстанско-Британский технический университет"
+БИН 011140004703
+Кбе 17
+КНП 861 (Платежи за образовательные услуги)
+ 
+АО «Народный Банк Казахстана»
+ИИК   KZ806010131000043902 (KZT) - для платежей в тенге,
+           KZ266010131000043904 (USD) - для платежей в долларах США
+БИК HSBKKZKX
+ 
+АО «Jusan Bank»
+ИИК  KZ96998CTB0001023013 (KZT)
+БИК TSESKZKA</mutableString>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstItem="egL-m3-96G" firstAttribute="leading" secondItem="Ysg-md-IxR" secondAttribute="leading" constant="8" id="7kR-vj-z04"/>
+                                                            <constraint firstItem="egL-m3-96G" firstAttribute="top" secondItem="Ysg-md-IxR" secondAttribute="top" constant="8" id="8QR-ra-Tml"/>
+                                                            <constraint firstAttribute="height" constant="900" id="UON-DM-onb"/>
+                                                            <constraint firstAttribute="trailing" secondItem="egL-m3-96G" secondAttribute="trailing" constant="8" id="Vb1-Wd-6Ic"/>
+                                                            <constraint firstAttribute="bottom" secondItem="egL-m3-96G" secondAttribute="bottom" constant="8" id="e2v-9i-xsI"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J68-Ql-6e9">
+                                                        <rect key="frame" x="0.0" y="970" width="414" height="300"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="May-yY-Gmn">
+                                                                <rect key="frame" x="8" y="8" width="398" height="291"/>
+                                                                <mutableString key="text">2) Оплата через приложение Home bank Народного банка:
+Необходимо зайти в раздел «Платежи»- «Все платежи»- «Вузы, колледжи»- найти в списке АО "Казахстанско-Британский технический университет" и в графе «Период оплаты» указать за какой период вносится оплата, в графе «Факультет» необходимо указать Факультет и прописать назначение платежа, указанное в п.1 Памятки (т.к. другое поле в приложении не предусмотрено). Также необходимо заполнить все остальные графы: Факультет, ФИО студента с обязательным указанием ИИН, Курс и Сумма платежа </mutableString>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstItem="May-yY-Gmn" firstAttribute="leading" secondItem="J68-Ql-6e9" secondAttribute="leading" constant="8" id="e6b-7R-oQc"/>
+                                                            <constraint firstAttribute="height" constant="300" id="gle-9V-zxa"/>
+                                                            <constraint firstItem="May-yY-Gmn" firstAttribute="top" secondItem="J68-Ql-6e9" secondAttribute="top" constant="8" id="qCh-7E-ZNo"/>
+                                                            <constraint firstAttribute="trailing" secondItem="May-yY-Gmn" secondAttribute="trailing" constant="8" id="x8W-PO-58g"/>
+                                                            <constraint firstAttribute="bottom" secondItem="May-yY-Gmn" secondAttribute="bottom" constant="1" id="zV3-iB-hLQ"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d7J-d0-M5G">
+                                                        <rect key="frame" x="0.0" y="1270" width="414" height="300"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HomeBankScreen.png" translatesAutoresizingMaskIntoConstraints="NO" id="dpF-p0-WnN">
+                                                                <rect key="frame" x="8" y="8" width="398" height="284"/>
+                                                                <gestureRecognizers/>
+                                                            </imageView>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstItem="dpF-p0-WnN" firstAttribute="top" secondItem="d7J-d0-M5G" secondAttribute="top" constant="8" id="JTF-0c-LOA"/>
+                                                            <constraint firstAttribute="height" constant="300" id="htQ-Mj-6d9"/>
+                                                            <constraint firstItem="dpF-p0-WnN" firstAttribute="leading" secondItem="d7J-d0-M5G" secondAttribute="leading" constant="8" id="mDz-m3-q3G"/>
+                                                            <constraint firstAttribute="bottom" secondItem="dpF-p0-WnN" secondAttribute="bottom" constant="8" id="njD-qV-6LD"/>
+                                                            <constraint firstAttribute="trailing" secondItem="dpF-p0-WnN" secondAttribute="trailing" constant="8" id="pEI-1Y-KAn"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MRF-3E-lQi">
+                                                        <rect key="frame" x="0.0" y="1570" width="414" height="300"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jav-c1-U3J">
+                                                                <rect key="frame" x="8" y="8" width="398" height="284"/>
+                                                                <string key="text">3. Оплата через приложение Kaspi.kz:
+ 
+Необходимо зайти в раздел «Платежи» - «Образование» - «Вузы и колледжи» - найти в списке АО "Казахстанско-Британский технический университет" и в графе «Факультет» необходимо указать Факультет и прописать назначение платежа, указанное в п.1 Памятки (т.к. другое поле в приложении не предусмотрено). Также необходимо заполнить все остальные графы: Курс, ФИО студента, ИИН студента, ФИО плательщика Сумма (видео-пример оплаты прилагается).</string>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstItem="Jav-c1-U3J" firstAttribute="leading" secondItem="MRF-3E-lQi" secondAttribute="leading" constant="8" id="3vy-2G-COm"/>
+                                                            <constraint firstAttribute="bottom" secondItem="Jav-c1-U3J" secondAttribute="bottom" constant="8" id="QfB-7x-kS2"/>
+                                                            <constraint firstAttribute="height" constant="300" id="Y2k-HA-dmv"/>
+                                                            <constraint firstAttribute="trailing" secondItem="Jav-c1-U3J" secondAttribute="trailing" constant="8" id="jNU-WF-CF3"/>
+                                                            <constraint firstItem="Jav-c1-U3J" firstAttribute="top" secondItem="MRF-3E-lQi" secondAttribute="top" constant="8" id="pSR-kx-gX8"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uyk-vF-aze">
+                                                        <rect key="frame" x="0.0" y="1870" width="414" height="300"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="KaspiScreen.png" translatesAutoresizingMaskIntoConstraints="NO" id="noO-vx-ot5">
+                                                                <rect key="frame" x="8" y="0.0" width="398" height="300"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            </imageView>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="300" id="cup-JS-zAy"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Mk-bW-Vb8">
+                                                        <rect key="frame" x="0.0" y="2170" width="414" height="200"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T1A-Zj-WS4">
+                                                                <rect key="frame" x="8" y="8" width="398" height="184"/>
+                                                                <string key="text"> 4.   Оплата через платежные карточки производится на сайте www.kbtu.kz,  через сервис онлайн оплаты https://epay.kbtu.kz. Здесь вы можете провести  онлайн платежи при помощи VISA и Master Card, заполнив при этом все необходимые поля: ИИН студента, сумма оплаты, ФИО, телефон, эл.адрес, цель платежа (т.е. назначение платежа).</string>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="trailing" secondItem="T1A-Zj-WS4" secondAttribute="trailing" constant="8" id="S9A-wH-5cJ"/>
+                                                            <constraint firstAttribute="height" constant="200" id="SYc-hU-0ne"/>
+                                                            <constraint firstItem="T1A-Zj-WS4" firstAttribute="top" secondItem="9Mk-bW-Vb8" secondAttribute="top" constant="8" id="chK-HE-FTg"/>
+                                                            <constraint firstAttribute="bottom" secondItem="T1A-Zj-WS4" secondAttribute="bottom" constant="8" id="ctX-zV-WcZ"/>
+                                                            <constraint firstItem="T1A-Zj-WS4" firstAttribute="leading" secondItem="9Mk-bW-Vb8" secondAttribute="leading" constant="8" id="ehj-ut-HLG"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="cfc-kR-b94" secondAttribute="bottom" id="7ZX-HT-kWB"/>
+                                            <constraint firstItem="cfc-kR-b94" firstAttribute="leading" secondItem="0Mv-Ni-vn6" secondAttribute="leading" id="H1E-3E-yue"/>
+                                            <constraint firstItem="cfc-kR-b94" firstAttribute="top" secondItem="0Mv-Ni-vn6" secondAttribute="top" id="HQk-oJ-6fw"/>
+                                            <constraint firstAttribute="trailing" secondItem="cfc-kR-b94" secondAttribute="trailing" id="Obn-XB-4ft"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="0Mv-Ni-vn6" secondAttribute="trailing" id="2lN-wA-fvI"/>
+                                    <constraint firstAttribute="bottom" secondItem="0Mv-Ni-vn6" secondAttribute="bottom" id="9gR-Ga-STO"/>
+                                    <constraint firstItem="0Mv-Ni-vn6" firstAttribute="width" secondItem="WDs-FI-qgr" secondAttribute="width" id="mbG-yR-oHv"/>
+                                    <constraint firstItem="0Mv-Ni-vn6" firstAttribute="leading" secondItem="WDs-FI-qgr" secondAttribute="leading" id="qIg-8e-gSh"/>
+                                    <constraint firstItem="0Mv-Ni-vn6" firstAttribute="top" secondItem="WDs-FI-qgr" secondAttribute="top" id="vnH-s1-9rR"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="tjQ-SC-eM3"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="gLP-Sn-XVH"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Y9Z-ls-KIn"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="WDs-FI-qgr" firstAttribute="top" secondItem="1O5-NY-T0v" secondAttribute="top" id="HfL-CG-fbJ"/>
+                            <constraint firstItem="WDs-FI-qgr" firstAttribute="trailing" secondItem="Y9Z-ls-KIn" secondAttribute="trailing" id="Pks-xn-vTf"/>
+                            <constraint firstItem="WDs-FI-qgr" firstAttribute="leading" secondItem="Y9Z-ls-KIn" secondAttribute="leading" id="ZpA-zu-eJQ"/>
+                            <constraint firstAttribute="bottom" secondItem="WDs-FI-qgr" secondAttribute="bottom" id="unh-V6-Erb"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="414" height="1500"/>
+                    <connections>
+                        <outlet property="homeBankImage" destination="dpF-p0-WnN" id="4To-gJ-5VH"/>
+                        <outlet property="kaspiImage" destination="noO-vx-ot5" id="lEc-xu-Dgf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HNQ-JT-yPH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2742.0289855072465" y="2883.4821428571427"/>
+        </scene>
+        <!--Home Bank Video-->
+        <scene sceneID="vot-sF-kHi">
+            <objects>
+                <viewController storyboardIdentifier="HomeBankVideo" id="Zs2-eo-nIU" customClass="HomeBankVideo" customModule="KBTUDiplomaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="szE-Ix-yqg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="sUF-1q-lq5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IN6-qA-XhM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3516" y="3370"/>
+        </scene>
+        <!--Kaspi Video-->
+        <scene sceneID="URl-E0-ZSz">
+            <objects>
+                <viewController storyboardIdentifier="KaspiVideo" id="HLx-v9-mwu" customClass="KaspiVideo" customModule="KBTUDiplomaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ECU-Tz-qSc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ISY-MK-DhU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="GOM-Sa-kc5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yLA-u0-pBj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3517" y="2711"/>
+        </scene>
+        <!--InfoVC-->
+        <scene sceneID="evg-h4-2dc">
+            <objects>
+                <viewController id="o4M-rl-4jU" customClass="InfoVC" customModule="KBTUDiplomaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IaD-fl-bd3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="LS9-eD-9ac">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="infoCell" rowHeight="121" id="jhm-hy-eNm">
+                                        <rect key="frame" x="0.0" y="50" width="414" height="121"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jhm-hy-eNm" id="9Hl-22-Zen">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="121"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kfU-Oe-a1Q"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="E2e-Ng-uqu"/>
+                    <connections>
+                        <outlet property="infoTable" destination="LS9-eD-9ac" id="jgj-hW-bhg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WaG-y6-Spa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-320.28985507246381" y="1539.5089285714284"/>
         </scene>
         <!--PricePDF-->
         <scene sceneID="zjL-Ij-h78">
             <objects>
-                <viewController id="tFM-bi-JCW" customClass="PricePDF" customModule="KBTUDiplomaApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PricePDF" id="tFM-bi-JCW" customClass="PricePDF" customModule="KBTUDiplomaApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XkR-wt-z1i">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Ddg-NN-mEX">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Ddg-NN-mEX">
                                 <rect key="frame" x="0.0" y="92" width="414" height="804"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="newsCell" rowHeight="113" id="4e1-fl-PL2">
@@ -682,12 +1367,20 @@
                         <viewLayoutGuide key="safeArea" id="7p4-Tt-GkG"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Ddg-NN-mEX" firstAttribute="centerX" secondItem="7p4-Tt-GkG" secondAttribute="centerX" id="HbK-eo-Hjo"/>
+                            <constraint firstItem="Ddg-NN-mEX" firstAttribute="centerX" secondItem="7p4-Tt-GkG" secondAttribute="centerX" id="LgT-tB-c37"/>
+                            <constraint firstAttribute="bottom" secondItem="Ddg-NN-mEX" secondAttribute="bottom" id="dgA-9m-9pg"/>
+                            <constraint firstItem="Ddg-NN-mEX" firstAttribute="centerX" secondItem="7p4-Tt-GkG" secondAttribute="centerX" id="g92-GN-ykr"/>
+                            <constraint firstItem="Ddg-NN-mEX" firstAttribute="top" secondItem="7p4-Tt-GkG" secondAttribute="top" constant="44" id="gv3-WP-heF"/>
+                            <constraint firstItem="Ddg-NN-mEX" firstAttribute="leading" secondItem="XkR-wt-z1i" secondAttribute="leading" id="oEF-m9-7W0"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="9CN-B7-mbg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KDY-s7-XRs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-318.84057971014494" y="1542.8571428571429"/>
+            <point key="canvasLocation" x="-319" y="2214"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="y6Z-9N-HFg">
@@ -731,7 +1424,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JeJ-Yz-iuU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-993" y="733"/>
+            <point key="canvasLocation" x="-1936" y="716"/>
         </scene>
         <!--Информация-->
         <scene sceneID="QkL-1f-7F7">
@@ -745,12 +1438,64 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="tFM-bi-JCW" kind="relationship" relationship="rootViewController" id="dUZ-0o-R6y"/>
+                        <segue destination="o4M-rl-4jU" kind="relationship" relationship="rootViewController" id="aDa-JJ-0CR"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UjC-HP-3el" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-318" y="733"/>
+        </scene>
+        <!--Get GrantVC-->
+        <scene sceneID="tTJ-xl-dYo">
+            <objects>
+                <viewController id="qtQ-hP-T2d" customClass="GetGrantVC" customModule="KBTUDiplomaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VLy-E5-4Zo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="MX9-RN-G1n">
+                                <rect key="frame" x="0.0" y="92" width="414" height="804"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="grantCell" textLabel="yVB-U9-qCN" detailTextLabel="nh1-wu-hrs" rowHeight="119" style="IBUITableViewCellStyleValue1" id="ahs-C3-KST">
+                                        <rect key="frame" x="0.0" y="50" width="414" height="119"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ahs-C3-KST" id="e4W-EG-5rv">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="119"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yVB-U9-qCN">
+                                                    <rect key="frame" x="20" y="53" width="25" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nh1-wu-hrs">
+                                                    <rect key="frame" x="350" y="53" width="44" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="qcO-vY-f6A"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hLB-Ja-r2r"/>
+                    <connections>
+                        <outlet property="getGrantVC" destination="MX9-RN-G1n" id="f0R-T6-4Nl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rox-Qc-Fx3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2671.0144927536235" y="2682.5892857142858"/>
         </scene>
         <!--Гранты-->
         <scene sceneID="3he-nB-Z4j">
@@ -792,150 +1537,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Igm-zc-mFI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-994" y="2667"/>
-        </scene>
-        <!--TestVC-->
-        <scene sceneID="8Vl-TE-MBx">
-            <objects>
-                <viewController id="mZ3-10-NNf" customClass="TestVC" customModule="KBTUDiplomaApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="k49-nv-BZ0">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VgS-AI-tAg">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tfa-Y0-dud">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2090"/>
-                                        <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="iyr-5w-uEH">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="2090"/>
-                                                <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E5i-5z-2wn">
-                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="414"/>
-                                                        <subviews>
-                                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u0J-m1-mij">
-                                                                <rect key="frame" x="-20" y="-20" width="454" height="454"/>
-                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                <subviews>
-                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1-floor_kbtu" translatesAutoresizingMaskIntoConstraints="NO" id="RYE-N0-Rfm">
-                                                                        <rect key="frame" x="20" y="20" width="414" height="414"/>
-                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                    </imageView>
-                                                                </subviews>
-                                                                <viewLayoutGuide key="contentLayoutGuide" id="l7h-WK-1J6"/>
-                                                                <viewLayoutGuide key="frameLayoutGuide" id="OOS-nr-3EF"/>
-                                                            </scrollView>
-                                                        </subviews>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="414" id="4gI-Ew-9Sv"/>
-                                                        </constraints>
-                                                    </view>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gfy-Yc-TUe">
-                                                        <rect key="frame" x="0.0" y="419" width="414" height="414"/>
-                                                        <subviews>
-                                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wnR-eX-Yro">
-                                                                <rect key="frame" x="-20" y="-20" width="454" height="454"/>
-                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                <subviews>
-                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2-floor_kbtu" translatesAutoresizingMaskIntoConstraints="NO" id="SqP-xf-RzY">
-                                                                        <rect key="frame" x="20" y="20" width="414" height="414"/>
-                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                    </imageView>
-                                                                </subviews>
-                                                                <viewLayoutGuide key="contentLayoutGuide" id="KyM-hS-09K"/>
-                                                                <viewLayoutGuide key="frameLayoutGuide" id="XOo-dj-zjw"/>
-                                                            </scrollView>
-                                                        </subviews>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="414" id="eKb-2e-arL"/>
-                                                        </constraints>
-                                                    </view>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vcu-N2-M1I">
-                                                        <rect key="frame" x="0.0" y="838" width="414" height="414"/>
-                                                        <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3-floor_kbtu" translatesAutoresizingMaskIntoConstraints="NO" id="nfO-s3-Go7">
-                                                                <rect key="frame" x="0.0" y="0.0" width="414" height="414"/>
-                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                            </imageView>
-                                                        </subviews>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="414" id="fGR-ax-nrV"/>
-                                                        </constraints>
-                                                    </view>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ffY-I7-zLP">
-                                                        <rect key="frame" x="0.0" y="1257" width="414" height="414"/>
-                                                        <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4-floor_kbtu" translatesAutoresizingMaskIntoConstraints="NO" id="zOu-P7-WFX">
-                                                                <rect key="frame" x="0.0" y="0.0" width="414" height="414"/>
-                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                            </imageView>
-                                                        </subviews>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="414" id="eJt-Nq-nY9"/>
-                                                        </constraints>
-                                                    </view>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ele-Z9-pbk">
-                                                        <rect key="frame" x="0.0" y="1676" width="414" height="414"/>
-                                                        <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5-floor_kbtu" translatesAutoresizingMaskIntoConstraints="NO" id="hHU-KU-zuu">
-                                                                <rect key="frame" x="0.0" y="0.0" width="414" height="414"/>
-                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                            </imageView>
-                                                        </subviews>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="414" id="opj-aw-SOF"/>
-                                                        </constraints>
-                                                    </view>
-                                                </subviews>
-                                            </stackView>
-                                        </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        <constraints>
-                                            <constraint firstItem="iyr-5w-uEH" firstAttribute="top" secondItem="Tfa-Y0-dud" secondAttribute="top" id="6io-96-lQI"/>
-                                            <constraint firstAttribute="trailing" secondItem="iyr-5w-uEH" secondAttribute="trailing" id="I1O-fR-HTD"/>
-                                            <constraint firstItem="iyr-5w-uEH" firstAttribute="leading" secondItem="Tfa-Y0-dud" secondAttribute="leading" id="arg-aI-c8b"/>
-                                            <constraint firstAttribute="bottom" secondItem="iyr-5w-uEH" secondAttribute="bottom" id="dep-h9-hPh"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="Tfa-Y0-dud" secondAttribute="bottom" id="6jH-XO-wvw"/>
-                                    <constraint firstItem="Tfa-Y0-dud" firstAttribute="leading" secondItem="VgS-AI-tAg" secondAttribute="leading" id="FMe-4H-ZUI"/>
-                                    <constraint firstAttribute="trailing" secondItem="Tfa-Y0-dud" secondAttribute="trailing" id="GpD-WN-NRc"/>
-                                    <constraint firstItem="Tfa-Y0-dud" firstAttribute="width" secondItem="VgS-AI-tAg" secondAttribute="width" id="MGz-2z-fuf"/>
-                                    <constraint firstItem="Tfa-Y0-dud" firstAttribute="top" secondItem="VgS-AI-tAg" secondAttribute="top" id="ewt-IZ-u8x"/>
-                                </constraints>
-                                <viewLayoutGuide key="contentLayoutGuide" id="7sz-IN-BFR"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="ZuQ-4q-t5n"/>
-                            </scrollView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="la8-KG-U7I"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="VgS-AI-tAg" firstAttribute="leading" secondItem="la8-KG-U7I" secondAttribute="leading" id="641-rm-lMq"/>
-                            <constraint firstItem="VgS-AI-tAg" firstAttribute="trailing" secondItem="la8-KG-U7I" secondAttribute="trailing" id="8fi-AM-x74"/>
-                            <constraint firstItem="VgS-AI-tAg" firstAttribute="top" secondItem="k49-nv-BZ0" secondAttribute="top" id="cT8-mE-LK7"/>
-                            <constraint firstAttribute="bottom" secondItem="VgS-AI-tAg" secondAttribute="bottom" id="tYm-3w-nNI"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="ila-Dl-pjp"/>
-                    <size key="freeformSize" width="414" height="1500"/>
-                    <connections>
-                        <outlet property="image" destination="RYE-N0-Rfm" id="2nB-d1-vtj"/>
-                        <outlet property="image2" destination="SqP-xf-RzY" id="Im2-jE-PX3"/>
-                        <outlet property="scrollView" destination="u0J-m1-mij" id="gty-OC-90v"/>
-                        <outlet property="scrollView2" destination="wnR-eX-Yro" id="dOl-rl-zaB"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="JeB-VA-qT9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="370" y="1742"/>
+            <point key="canvasLocation" x="-1959" y="2683"/>
         </scene>
         <!--Карта-->
         <scene sceneID="SGu-34-m1x">
@@ -949,12 +1551,45 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="mZ3-10-NNf" kind="relationship" relationship="rootViewController" id="PR9-9l-Zr6"/>
+                        <segue destination="BYi-kt-usL" kind="relationship" relationship="rootViewController" id="X5r-3S-Rxh"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JN6-XG-tDM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="369" y="733"/>
+        </scene>
+        <!--Third FloorVC-->
+        <scene sceneID="wfV-SF-Lqj">
+            <objects>
+                <viewController storyboardIdentifier="ThirdFloorVC" id="yi8-AY-Fwk" customClass="ThirdFloorVC" customModule="KBTUDiplomaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9pT-3R-IGl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kD3-aM-eOH">
+                                <rect key="frame" x="-20" y="178" width="454" height="516"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3-floor_kbtu" translatesAutoresizingMaskIntoConstraints="NO" id="emw-fe-kda">
+                                        <rect key="frame" x="20" y="20" width="414" height="476"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="hvP-tY-ph6"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="yzk-i3-6r2"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="KeS-dr-LSF"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="thirdFloorImage" destination="emw-fe-kda" id="FQE-3a-ZqL"/>
+                        <outlet property="thirdFloorScroll" destination="kD3-aM-eOH" id="Pqy-nZ-Wqx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zDS-mN-E6W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1961" y="-727"/>
         </scene>
         <!--Faculties View Controller-->
         <scene sceneID="qrf-4f-RMS">
@@ -999,7 +1634,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p6y-Ja-PRY" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1078.6259541984732" y="1541.549295774648"/>
+            <point key="canvasLocation" x="1986.9565217391305" y="85.714285714285708"/>
         </scene>
         <!--Faculty DetailsVC-->
         <scene sceneID="giv-Kl-gpC">
@@ -1120,12 +1755,78 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="Gbm-h4-UPq" kind="relationship" relationship="rootViewController" id="kaX-3S-qiM"/>
+                        <segue destination="ZQF-ph-GH2" kind="relationship" relationship="rootViewController" id="kaX-3S-qiM"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I3e-9W-rhm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1079" y="732"/>
+            <point key="canvasLocation" x="1078" y="-666"/>
+        </scene>
+        <!--First FloorVC-->
+        <scene sceneID="18a-bw-2fQ">
+            <objects>
+                <viewController storyboardIdentifier="FirstFloorVC" id="SP5-nA-WEN" customClass="FirstFloorVC" customModule="KBTUDiplomaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vfh-3O-OcS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zKJ-QS-3nj">
+                                <rect key="frame" x="-20" y="171" width="454" height="516"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1-floor_kbtu" translatesAutoresizingMaskIntoConstraints="NO" id="8i0-ye-Rf2">
+                                        <rect key="frame" x="20" y="20" width="414" height="476"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="rh3-lt-XXJ"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="IOy-vl-6TU"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="CPK-jM-DWR"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="firstFloorImage" destination="8i0-ye-Rf2" id="1xr-by-1aq"/>
+                        <outlet property="firstFlootScroll" destination="zKJ-QS-3nj" id="xEI-fa-4PE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lKH-8c-peF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1961" y="-1380"/>
+        </scene>
+        <!--Second FloorVC-->
+        <scene sceneID="6Dg-ja-P1Q">
+            <objects>
+                <viewController storyboardIdentifier="SecondFloorVC" id="KKt-Tj-tRr" customClass="SecondFloorVC" customModule="KBTUDiplomaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2kR-3U-OtT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oYh-I9-VPx">
+                                <rect key="frame" x="-20" y="177" width="454" height="516"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2-floor_kbtu" translatesAutoresizingMaskIntoConstraints="NO" id="FqN-jt-tKn">
+                                        <rect key="frame" x="20" y="20" width="414" height="476"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="V3M-zj-Bit"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="GcI-wA-wGp"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="BgJ-5L-y6a"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="secondFloorImage" destination="FqN-jt-tKn" id="O2u-Xh-oa0"/>
+                        <outlet property="secondFloorScroll" destination="oYh-I9-VPx" id="D2t-JC-IaO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hYv-Rk-yFE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2703" y="-1380"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="wcy-aT-rDh">
@@ -1144,6 +1845,161 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="App-62-0Zk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1918.840579710145" y="1542.8571428571429"/>
+        </scene>
+        <!--Get Payment-->
+        <scene sceneID="jxi-yb-TnI">
+            <objects>
+                <viewController id="hXN-sz-q1s" customClass="GetPayment" customModule="KBTUDiplomaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WJ2-0l-c2P">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Qm1-D3-C6j">
+                                <rect key="frame" x="0.0" y="92" width="414" height="804"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="paymentCell" textLabel="JDM-y6-lOA" detailTextLabel="FUy-an-KYA" rowHeight="120" style="IBUITableViewCellStyleValue1" id="JhY-wG-gI9">
+                                        <rect key="frame" x="0.0" y="50" width="414" height="120"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JhY-wG-gI9" id="Ulb-XH-3yQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="JDM-y6-lOA">
+                                                    <rect key="frame" x="20" y="53" width="25" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FUy-an-KYA">
+                                                    <rect key="frame" x="350" y="53" width="44" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8Fj-7b-oiS"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="x9r-Sd-7CV"/>
+                    <connections>
+                        <outlet property="getPaymentTable" destination="Qm1-D3-C6j" id="wuo-b6-cuh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1jf-2K-kLv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1217.3913043478262" y="2682.5892857142858"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="vUY-iO-McX">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="NY4-bz-qeu" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gUf-PG-FOS">
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Ds8-vF-0YN" kind="relationship" relationship="rootViewController" id="amg-du-Jh0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2e7-X9-hXl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="406" y="3353"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="R8V-Ya-AZm">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZQF-ph-GH2" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="eT8-jb-dFX"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="C8W-c5-nBv">
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Gbm-h4-UPq" kind="relationship" relationship="rootViewController" id="EYz-1v-ktW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6O0-54-62m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076.8115942028987" y="85.714285714285708"/>
+        </scene>
+        <!--Fourth FloorVC-->
+        <scene sceneID="uwg-Iy-b99">
+            <objects>
+                <viewController storyboardIdentifier="FourthFloorVC" id="wEe-dr-eLF" customClass="FourthFloorVC" customModule="KBTUDiplomaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MsF-pU-4pm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q6r-is-qNP">
+                                <rect key="frame" x="-20" y="190" width="454" height="516"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4-floor_kbtu" translatesAutoresizingMaskIntoConstraints="NO" id="7pp-4V-3OB">
+                                        <rect key="frame" x="20" y="20" width="414" height="476"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="NyS-GI-svt"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="jJw-Ve-od2"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cM4-lF-DXn"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="fourthFloorImage" destination="7pp-4V-3OB" id="dXb-qn-xPY"/>
+                        <outlet property="fourthFloorScroll" destination="Q6r-is-qNP" id="FUn-Lf-p9q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dn1-Tu-TMO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2703" y="-727"/>
+        </scene>
+        <!--Fifth FloorVC-->
+        <scene sceneID="z3S-vC-reS">
+            <objects>
+                <viewController storyboardIdentifier="FifthFloorVC" id="1vd-9C-jZb" customClass="FifthFloorVC" customModule="KBTUDiplomaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hEb-Ns-6ir">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9lO-MX-wrw">
+                                <rect key="frame" x="-20" y="190" width="454" height="516"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5-floor_kbtu" translatesAutoresizingMaskIntoConstraints="NO" id="stH-sS-igt">
+                                        <rect key="frame" x="20" y="20" width="414" height="476"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="iKF-Gy-VGH"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="N25-MO-yXB"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jdy-oO-SeX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="fifthFloorImage" destination="stH-sS-igt" id="oW9-Qb-ogs"/>
+                        <outlet property="fifthFloorScroll" destination="9lO-MX-wrw" id="41C-Qq-p6b"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iVC-lB-gcR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2703" y="-52"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
@@ -1164,6 +2020,8 @@
         <image name="Grant" width="73" height="67"/>
         <image name="GrantMIO" width="232" height="169"/>
         <image name="HKAOKO" width="190" height="119"/>
+        <image name="HomeBankScreen.png" width="745" height="607"/>
+        <image name="KaspiScreen.png" width="640" height="605"/>
         <image name="Payment" width="59" height="72"/>
         <image name="QS" width="298" height="77"/>
         <image name="VnutrGrant" width="204" height="163"/>
@@ -1173,6 +2031,12 @@
         <image name="house" catalog="system" width="128" height="104"/>
         <image name="info.bubble" catalog="system" width="128" height="110"/>
         <image name="map" catalog="system" width="128" height="112"/>
+        <image name="Бизнес Школа" width="438" height="285"/>
+        <image name="Международная школа экономики" width="438" height="285"/>
+        <image name="Факультет геологии и геологоразведки" width="438" height="285"/>
+        <image name="Школа Прикладной Математики" width="438" height="285"/>
+        <image name="Школа Энергетики и нефтегазовой индустрии" width="438" height="285"/>
+        <image name="Школа информационных технологий и инженерии" width="438" height="285"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

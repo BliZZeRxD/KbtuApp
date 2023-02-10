@@ -8,7 +8,6 @@
 import Foundation
 import UIKit
 import PDFKit
-import WebKit
 
 class PricePDF: UIViewController{
     
